@@ -1,0 +1,52 @@
+# Ignore Rider-specific files
+.idea/
+*.sln.iml
+
+# Ignore build output
+bin/
+obj/
+out/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.ide
+
+# Ignore package-related files
+packages/
+*.nupkg
+
+# Ignore logs and temporary files
+*.log
+*.tlog
+*.cache
+
+# Ignore ASP.NET-specific files
+App_Data/
+App_Temp/
+AppLogs/
+
+# Ignore dependencies
+node_modules/
+wwwroot/lib/
+
+# Ignore environmental files
+.env
+*.env.local
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore compiled views
+Views/*.*.cs
+
+# Ignore Rider workspace settings
+.idea/
+*.dotCover
+
+# Ignore generated files by Visual Studio
+.vscode/
+.DS_Store
